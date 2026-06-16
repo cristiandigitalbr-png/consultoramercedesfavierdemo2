@@ -261,6 +261,28 @@
     color: var(--texto-suave);
   }
 
+
+  .badges-row {
+    display: flex;
+    justify-content: center;
+    gap: 16px;
+    flex-wrap: wrap;
+    margin-top: 36px;
+  }
+  .badge {
+    background: var(--blanco);
+    border: 1px solid rgba(184,145,92,0.25);
+    border-radius: 30px;
+    padding: 12px 24px;
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    font-size: 13px;
+    color: var(--texto);
+    font-weight: 400;
+  }
+  .badge-icon { font-size: 16px; }
+
   /* BENEFICIOS */
   .beneficios { padding: 100px 40px; background: var(--blanco); }
   .beneficios-grid {
@@ -531,6 +553,14 @@
         <h3>Experiencia y confianza</h3>
         <p>He acompañado a personas en su viaje hacia una mayor conciencia y bienestar. Mi experiencia me permite ofrecer un acompañamiento empático, amoroso y efectivo, adaptado a tus necesidades únicas.</p>
       </div>
+    </div>
+
+    <div class="badges-row">
+      <div class="badge"><span class="badge-icon">🎓</span>Certificada por Humano Puente</div>
+      <div class="badge"><span class="badge-icon">📘</span>Tutora YOBB</div>
+      <div class="badge"><span class="badge-icon">💼</span>Consultora en Empresas y Economía</div>
+      <div class="badge"><span class="badge-icon">🤝</span>Acompañamiento 1 a 1</div>
+      <div class="badge"><span class="badge-icon">💻</span>Online y Presencial</div>
     </div>
   </div>
 </section>
